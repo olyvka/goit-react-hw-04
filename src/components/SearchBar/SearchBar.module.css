@@ -1,0 +1,51 @@
+.form {
+    width: 100%;
+    text-align: center;
+    padding: 0 0 40px 40px;
+    position: relative;
+    background-color: #F2F2F2;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 3px 2px rgba(0, 0, 0, 0.08),
+      0px 5px 2px rgba(0, 0, 0, 0.12);
+  }
+  
+  .field {
+    margin-right: 10px;
+
+    border-radius: 10px;
+    width: 25%;
+    height: 40px;
+    background-color: #F2F2F2;
+    font-size: 18px;
+
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 3px 2px rgba(0, 0, 0, 0.08),
+      0px 5px 2px rgba(0, 0, 0, 0.12);
+  }
+  input[type="text"] {
+    padding: 20px; /* Встановлюємо відступи всередині поля вводу тексту */
+  }
+  
+  
+  .error {
+    color: orangered;
+    font-size: 20px;
+    position: absolute;
+    top: 65%;
+    right: 46%;
+  }
+  
+  .btn {
+    padding: 8px 15px 8px 15px;
+    border-radius: 10px;
+    background-color: #223440;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #F2F2F2;
+  }
+  
+  .btn:hover {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 3px 2px rgba(0, 0, 0, 0.08),
+      0px 5px 2px rgba(0, 0, 0, 0.12);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: #17242c;
+  }
