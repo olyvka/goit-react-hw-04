@@ -39,7 +39,7 @@ export default function App() {
 
   const handleSearch = async (newImages) => {
     setQuery(newImages);
-    setPage(2);
+    setPage(1);
     setImages([]);
   };
 
